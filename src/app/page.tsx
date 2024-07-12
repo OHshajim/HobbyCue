@@ -4,7 +4,7 @@ import Profile from "@/Components/Profile";
 import Photo from "@/Components/Photo";
 import Video from "@/Components/Vedio";
 import Card from "@/Components/Card";
-import './globals.css';
+import "./globals.css";
 export default function page() {
   return (
     <main className="bg-base-100">
@@ -19,9 +19,15 @@ export default function page() {
             <Card />
           </div>
         </div>
-        <div className="">
-          <Photo />
-          <Video />
+        <div className="flex md:flex-col flex-row gap-2 md:justify-start justify-center items-center ">
+          {/* small */}
+          <div className=" md:w-full w-1/2">
+            <Photo />
+          </div>
+          <div className="md:w-full w-1/2">
+            <Video />
+          </div>
+          
         </div>
         <div className="lg:hidden">
           <Card />

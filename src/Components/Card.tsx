@@ -14,7 +14,7 @@ const Card = () => {
   return (
     <div className="my-10">
       {blogs.map((blog) => (
-        <div key={blog['id']} className="text-black sm:p-5 p-2">
+        <div key={blog['id']} className="text-black sm:p-5 p-2 bg-[#F1F1F1] rounded-xl my-4 hover:-translate-y-3 duration-300 delay-200 hover:border-zinc-300 hover:border">
           <h1 className="text-2xl font-semibold ">{blog['title']}</h1>
           <p className="text-xs text-[#5F5F5F] my-3">{blog['body']}</p>
           <hr />
