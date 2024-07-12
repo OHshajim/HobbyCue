@@ -9,30 +9,15 @@ const Nav = () => {
             <Image src="/Logo.png" alt="logo" width={150} height={50} />
           </a>
         </div>
-        <div className="flex-none gap-3">
+        <div className="flex-none gap-3 lg:flex  hidden">
           <div className="w-10 rounded-full ">
-            <Image
-              alt="user photo"
-              src="/Search.png"
-              width={50}
-              height={50}
-            />
+            <Image alt="user photo" src="/Search.png" width={50} height={50} />
           </div>
           <div className="w-10 rounded-full">
-            <Image
-              alt="user photo"
-              src="/Create.png"
-              width={50}
-              height={50}
-            />
+            <Image alt="user photo" src="/Create.png" width={50} height={50} />
           </div>
           <div className="w-10 rounded-full">
-            <Image
-              alt="user photo"
-              src="/Message.png"
-              width={50}
-              height={50}
-            />
+            <Image alt="user photo" src="/Message.png" width={50} height={50} />
           </div>
           <div className="w-10 rounded-full">
             <Image
@@ -43,12 +28,29 @@ const Nav = () => {
             />
           </div>
           <div className="w-10 rounded-full">
+            <Image alt="user photo" src="/Options.png" width={50} height={50} />
+          </div>
+          <div className="w-10 rounded-full">
             <Image
               alt="user photo"
               src="/Profile Pic (1).png"
               width={50}
               height={50}
             />
+          </div>
+        </div>
+
+        <div className="flex gap-3 lg:hidden ">
+          <div className="w-10 rounded-full">
+            <Image
+              alt="user photo"
+              src="/Profile Pic (1).png"
+              width={50}
+              height={50}
+            />
+          </div>
+          <div className="w-10 rounded-full">
+            <Image alt="user photo" src="/Hamburger.png" width={50} height={50} />
           </div>
         </div>
       </div>
