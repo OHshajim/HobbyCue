@@ -14,9 +14,9 @@ const Card = () => {
   return (
     <div className="my-10">
       {blogs.map((blog) => (
-        <div key={blog.id} className="text-black p-5">
-          <h1 className="text-2xl font-semibold ">{blog.title}</h1>
-          <p className="text-xs text-[#5F5F5F] my-3">{blog.body}</p>
+        <div key={blog['id']} className="text-black p-5">
+          <h1 className="text-2xl font-semibold ">{blog['title']}</h1>
+          <p className="text-xs text-[#5F5F5F] my-3">{blog['body']}</p>
           <hr />
           <div className="flex justify-between items-center ">
             <div className="flex gap-3 mt-6">

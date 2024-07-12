@@ -1,4 +1,3 @@
-import { Lexend } from "next/font/google";
 import Nav from "@/Components/Nav";
 import Banner from "@/Components/Banner";
 import Profile from "@/Components/Profile";
@@ -6,9 +5,7 @@ import Photo from "@/Components/Photo";
 import Video from "@/Components/Vedio";
 import Card from "@/Components/Card";
 
-const inter = Lexend({ subsets: ["latin"] });
-
-export default function Home() {
+export default function page() {
   return (
     <main className="bg-base-100">
       <header>
