@@ -9,5 +9,6 @@ This is a job task as a Front End developer
 2. Tailwind css And Daisy UI
 3. Host in Vercel 
 
-<p style={color:"green"}>Info: There is no privet key in this task so it will be easy to run localy .</p> <br/>
-Video Demo Link : 
+<p >Info: There is no privet key in this task so it will be easy to run localy .</p> <br/>
+
+Presentation video Link : https://drive.google.com/file/d/1yu7whNYoEo2dlWGenlECKlyQCS571hEI/view?usp=sharing 
