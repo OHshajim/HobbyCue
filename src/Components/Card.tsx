@@ -14,12 +14,12 @@ const Card = () => {
   return (
     <div className="my-10">
       {blogs.map((blog) => (
-        <div key={blog['id']} className="text-black p-5">
+        <div key={blog['id']} className="text-black sm:p-5 p-2">
           <h1 className="text-2xl font-semibold ">{blog['title']}</h1>
           <p className="text-xs text-[#5F5F5F] my-3">{blog['body']}</p>
           <hr />
           <div className="flex justify-between items-center ">
-            <div className="flex gap-3 mt-6">
+            <div className="flex sm:gap-3 gap-2 mt-6">
               <p className="px-2 py-1 bg-white rounded-full text-xs text-[#76A4CE]">
                 #photography
               </p>
