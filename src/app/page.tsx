@@ -4,7 +4,7 @@ import Profile from "@/Components/Profile";
 import Photo from "@/Components/Photo";
 import Video from "@/Components/Vedio";
 import Card from "@/Components/Card";
-
+import './globals.css';
 export default function page() {
   return (
     <main className="bg-base-100">
