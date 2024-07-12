@@ -1,17 +1,20 @@
-import Image from "next/image";
-import { Inter } from "next/font/google";
+import {  Lexend } from "next/font/google";
 import Nav from "@/Components/Nav";
 import Banner from "@/Components/Banner";
+import Profile from "@/Components/Profile";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Lexend({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <main className="bg-base-100">
-      <header className=" ">
-        <Nav/>
-        <Banner/>
+    <main  className="bg-base-100">
+      <header>
+        <Nav />
+        <Banner />
       </header>
+      <div className="container mx-auto bg-[#F6F6F6]">
+        <Profile/>
+      </div>
     </main>
   );
 }
